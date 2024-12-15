@@ -1,6 +1,6 @@
 # Run the project
 
-To run the chat project, run the following command on the project root:
+To run the chat application, run the following command on the project root:
 
 ### `npm start`
 

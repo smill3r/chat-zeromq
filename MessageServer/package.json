@@ -1,0 +1,25 @@
+{
+  "name": "chat-zeromq",
+  "version": "1.0.0",
+  "description": "Chat application powered by zeromq",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "npx tsc && node dist/app.js",
+    "dev": "nodemon --ignore database.json src/app.ts"
+  },
+  "author": "Jose Smiller",
+  "license": "ISC",
+  "dependencies": {
+    "lokijs": "^1.5.12",
+    "socket.io": "^4.8.1",
+    "zeromq": "^6.1.2"
+  },
+  "devDependencies": {
+    "@types/lokijs": "^1.5.14",
+    "@types/node": "^22.10.1",
+    "@types/zeromq": "^5.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
